@@ -1,0 +1,17 @@
+<p class="recipe style="font:"Montserrat";></p><strong>Here is the chocolate cake recipe you have requested:</strong><br>
+
+<em>Ingredients:</em>
+<ul class="ingredients">
+<li>cup self-raising flour</li>
+
+<li>tbs cocoa powdercup</li>
+<li>250g butter</li>
+<li>1/2 cup caster sugar</li>
+<li>1 tsp vanilla essence</li>
+<li>2 eggs)</li> 
+</ul>
+<em>Steps:</em>
+Mix eggs for 1 min,
+pour into a lined cake tin and bake for 25 - 35 minutes at 160C. </p>
+
+<!-- recipe taken from https://www.bestrecipes.com.au/recipes/simple-chocolate-cake-recipe/loko803b-->

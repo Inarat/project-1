@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <!-- Meta tags -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inara's website</title>
+
+
+<!-- Font Awesome -->
+<script src="https://kit.fontawesome.com/ce2f7ad7c1.js" crossorigin="anonymous"></script>  <!--Social icons taken from this website-->
+
+
+<!--CSS-->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<link rel="stylesheet" href="styles.css">
+
+<!--Google Fonts-->
+<link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;900&family=Ubuntu&display=swap" rel="stylesheet">
+
+<!--JS Bootstrap-->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+
+
+</head>
+<body class="history-body">
+    
+<!-- Hero section -->
+<!--source for navbar: https://getbootstrap.com/docs/5.0/components/navbar/ however custom styling with CSS was applied -->
+    <section class="darkblue-section history-main" id="hero">
+        <nav class="navbar navbar-custom navbar-expand-lg navbar-dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">iT<span style="color: #E6E67D;">.</span></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarContent">
+                <ul class="navbar-nav ms-auto ">
+                  <li class="nav-item">
+                    <a class="nav-link" href="cod.html">CoD</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link " href="history.html">History</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link " href="index.html">Bio</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+          
+          <h1 class="h1-history">CoD Technologies</h1> 
+
+         
+          <!--source for cards:  https://getbootstrap.com/docs/5.0/components/card/ , however custom styling was applied--> 
+              <div class=" main-cont row row-cols-1 row-cols-md-4 g-4 ">
+                <div class="col d-flex justify-content-center">
+                  <div class="card card-tech">
+                    <img src="images/java-logo.png" class="card-img-top img-his1 img-his mx-auto" alt="...">  <!--source for logo https://icons.iconarchive.com/icons/dakirby309/simply-styled/128/Java-icon.png-->
+                    <div class="card-body">
+                     <button type="button" class=" btn btn-lg btn-his btn-java card-text" data-bs-toggle="modal" data-bs-target="#modal-applet"> Read more..</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col d-flex justify-content-center">
+                  <div class="card card-tech d-flex justify-content-center">
+                    <img src="images/adobe.png" class="card-img-top  img-his mx-auto img-his2" alt="...">
+                    <div class="card-body">
+                     <button type="button" class="btn btn-lg btn-his btn-flash card-text" data-bs-toggle="modal" data-bs-target="#modal-flash"> Read more..</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col d-flex justify-content-center">
+                  <div class="card card-tech">
+                    <img src="images/javascript-logo.png" class="card-img-top img-his mx-auto" alt="JavaScript Logo">
+                    <div class="card-body">
+                      <p class="card-text-his"><button type="button" class="btn btn-lg btn-his btn-js card-text" data-bs-toggle="modal" data-bs-target="#modal-js"> Read more..</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col d-flex justify-content-center">
+                  <div class="card card-tech">
+                    <img src="images/webAssembly-logo.png" class="card-img-top img-his mx-auto" alt="Web Assembly Logo">
+                    <div class="card-body">
+                      <p class="card-text-his"><button type="button" class=" btn btn-lg btn-his btn-wa card-text" data-bs-toggle="modal" data-bs-target="#modal-wa"> Read more..</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+     
+
+                           <!-- modal-applet -->
+                        <div id="modal-applet" class=" modal-hist modal fade">
+                          <div class="modal-dialog modal-dialog-scrollable modal-sm">
+                            <!-- modal-applet content-->
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <h4 class="modal-title w-100 text-body">Java Applet</h4>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> </div>
+                                <div class="modal-body">
+                                  <!-- <p class="modal-p">Please press the play button for some reading music</p>
+                                 <iframe width="360" height="25" src="https://www.youtube.com/embed/FCmN6KjS9lo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                  -->
+                                  <p class="modal-p">At the beginning of 1990’s web pages looked just a static text as follows: 
+                                    <img class="illustration-1" src="images/first-webpage.png" href="http://info.cern.ch/hypertext/WWW/TheProject.html"alt="">
+                                  
+                                    
+                                    However, birth of Java language and with-it, Java applet in 1995 was a historical moment in the interactive web page. Applet was a tiny app, which would offer basic interactivity, games, visualization etc. 
+                                    </p>
+                                    <h4 class="modal-title w-100 text-body">How it Worked?</h4>
+                              
+                                    <p class="modal-p">
+Java applet would be embedded into a web page and work on the client side. 
+The following video explains how applets worked and much more.</p>
+<div class="vid">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/HEdPX8pt_DQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+<!-- https://www.vice.com/en/article/8q8n3k/a-brief-history-of-the-java-applet <br> Advantages <br>  -->
+<!-- https://en.wikipedia.org/wiki/Java_applet -->
+
+<h4 class="modal-title w-100 text-body">Advantages</h4>
+<p class="modal-p">  The applet allowed better scalability as applets worked on the client-side
+Applet could be executed under many operating systems such as Unix, Linux, and macOS operating system.
+The applet was combined with HTML, CSS, and Javascript to provide more functionality to the web page
+The applet was very easy to build and contains very little redundancy
+</p>
+<h4 class="modal-title w-100 text-body">Disadvantages </h4>
+
+  https://en.wikipedia.org/wiki/Java_applet
+
+  <ul>
+    <li>Dependence on JVM and plugin to execute the applet </li>
+    <li>Without the proper plugin, there is no execution of the applet at the client side</li>
+    <li>Security was the main issue with trusted and untrusted applets</li>
+  </ul>
+
+
+<h4 class="modal-title w-100 text-body">Why was it deprecated?</h4>
+<p class="modal-p">
+  <!-- https://www.infoq.com/news/2021/03/end-of-applets/ -->
+  <ul>
+
+    <li>All browsers removed support for plugin </li>
+    <li>GUI was very limited (color, font etc.)</li>
+    <li>Was not adaptive to people’s demand (ex. Video) and lost  the market to competitor Flash </li>
+    <li>Security concerns </li>
+  </ul>
+  </p>
+
+                              </div>
+                              <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-bs-dismiss="modal">Close</button>
+                              </div>
+                            
+                            </div>
+          
+                           </div>
+                          </div>
+
+                           <!-- modal-flash -->
+                        <div id="modal-flash" class="modal fade">
+                          <div class="modal-dialog modal-dialog-scrollable modal-sm">
+                            <!-- moda-flash content-->
+                            <div class="modal-content">
+                              <div class="modal-header"> 
+                                <h4 class="modal-title w-100 text-body">What is Flash?</h4>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> 
+                              </div>
+                                <div class="modal-body">
+                                 <p class="modal-p">Flash was originally developed by other companies in 1990’s, however it was acquired by Adobe in 2005. It was a multimedia software platform that was used for many activities such as games, video streaming, animations, rich web applications to name a few. Flash is programmed with ActionScript language is a derivative of Emascript, which also serves as a standard for JavaScript language. </p>
+                                 <h4 class="modal-title w-100 text-body">How it Worked?</h4>
+                                 <p class="modal-p">It required users to install web browser plugin Flash Player. In the early 2000's Flash was installed by millions of people around the world.
+                                    <div class="vid"><iframe width="560" height="315" src="https://www.youtube.com/embed/hR1_h_Rt4Eg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div></p>
+                    
+                                  <p class="modal-p">It also helped many giants such as YouTube to launch their business, and for Nike, HP and others to promote their new products in a creatively interactive way.</p>
+                      
+                                 <p class="modal-p">This is the first video of YouTube:</p>
+                                <div class="vid">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/jNQXAC9IVRw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                </div>
+                                 <!-- https://www.youtube.com/watch?v=hR1_h_Rt4Eg -->
+                                 <h4 class="modal-title w-100 text-body">Why was it deprecated?</h4>
+                               
+        
+                                   <ul>
+                                 
+                                     <li>Closed platform nature - it was not an open-source tool.</li>
+                                     <li>Not good performance on mobile (battery life) </li>
+                                     <li>Improved Javascript API </li>
+                                     <li>Mobile Web Browsers did not support Flash plugin. Especially Apple opposed to the idea of using the propritory, battery-thirsty software. This can be seen in <a href="https://newslang.ch/wordpress/wp-content/uploads/2020/06/Thoughts-on-Flash.pdf" >Steve Job’s Letter.</a></li>
+                                   </ul>
+                
+
+                              </div>
+                              <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-bs-dismiss="modal">Close</button>
+                              </div>
+                            
+                            </div>
+          
+                           </div>
+                          </div>
+
+
+                           <!-- modal-js -->
+                        <div id="modal-js" class="modal fade modal-hist2">
+                
+                          <div class="modal-dialog modal-dialog-scrollable modal-sm">
+                            <!-- modal-js content-->
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <h4 class="modal-title w-100 text-body">JAVASCRIPT</h4>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> </div>
+                                <div class="modal-body">
+
+                                  <p class="modal-p">Javascript (JS) is an object-oriented scripting language that was introduced in 1995 to add interactivity to otherwise static web pages and Netscape Navigator was the first browser that supported it. Later Microsoft not only released its own browser Internet Explorer, which led to browser wars, but also created its own version of JavaScript called JScript. 
+                                  Though it was initially launched as a lightweight language, in 1998, when Microsoft was a sole player dominating the browser market JavaScript's importance grew one and became one of the prominent web technologies.  The name Java was included in its name because it would be advantageous to have somewhat similar name to Java, which was popular at that time.  During its first decade JS was not used extensively, however, all changed when JIT compiler for JavaScript became available in early 2000’s. 
+                                  </p>
+
+                                  <h4 class="modal-title w-100 text-body">How JS works?</h4>
+                                  <p class="modal-p">Javascript on the client-side works dynamically, responding to user events such as mouse click, form input, hover etc. The following form is used to display how based on age the content changes.</p>
+                                  
+                                  <!--Defining HTML elements for weeks and months calculator, which was used here to show intereactivity of JS-->
+                              <div class="js-demonstration">
+                                <p class="modal-p">If you were to live up to 90 years, by entering your age you can calculate how many weeks and months left.</p>
+                                  <hr style="color:black; width: 80%;">
+                              <label for="yourAge" class="js-form">Your Age:</label>
+                              <input type="string" name="yourAge" id="age">
+                              <p class="modal-p" id="calc_result"></p>
+                              <button id="result-btn" onclick="yourLifeinWeeksCalculator()">Calculate</button>
+                              </div>
+                              
+                            
+                              <hr>
+                              <h4 class="modal-title w-95 text-body">Advantages</h4><!-- info source: https://data-flair.training/blogs/advantages-disadvantages-javascript/-->
+
+                               <ul>
+                                 <li>Speed: As JavaScript is an interpreted language and makes execution of the faster. It also improves performance with its DOM and built-in functions for loop.</li>
+                                 <li>Simplicity: It is very easy to learn and implement, which save time for developing dynamic websites </li>
+                                 <li> Popularity:  Since JS is supported by all browsers, it is used by many.</li>
+                                 <li> Interoperability: it can be integrated with other languages </li>
+                               </ul>
+                        
+                                
+                              <h4 class="modal-title w-100 text-body">Why JS is still used?</h4>
+                              <p class="modal-p">The simple answer is it is supported by all browsers and it has very fast JIT(Just-in-time)compiler, which makes it more reliable.</p>
+                                
+                               </div> 
+              
+
+  
+                                <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-bs-dismiss="modal">Close</button>
+                              </div>
+    
+                              </div>
+                              
+                            
+                            </div>
+          
+                           </div>
+                          </div>
+
+
+                        <!-- modal-wa -->
+                        <div id="modal-wa" class="modal fade">
+                          <div class="modal-dialog modal-dialog-scrollable modal-sm">
+                            <!-- Modal2 content-->
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <h4 class="modal-title w-100 text-body">WEB ASSEMBLY</h4>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> </div>
+                                <div class="modal-body">
+                                 <blockquote><p class="modal-p blockquote">&ldquo;<a href="https://webassembly.org/">WebAssembly</a> (abbreviated Wasm) is a binary instruction format for a stack-based virtual machine. Wasm is designed as a portable compilation target for programming languages, enabling deployment on the web for client and server applications.&ldquo;</p></blockquote>
+                                 <a href="https://blog.logrocket.com/webassembly-how-and-why-559b7f96cd71/"> <img class="img-his" src="images/wasm.png" alt="wasm structure"></a>
+                              
+                                 
+                                 <p class="modal-p">Though Wasm has compact binary format, it also provides debugger in text format. In addition, it was not developed to replace JavaScript but to complement it. </p>
+                                 <h4 class="modal-title w-100 text-body"><a href="https://snipcart.com/blog/webassembly-vs-javascript">Advantages</a></h4>
+                                   <ul>
+                                     <li>Performance: Binary format is efficient for load-time.</li>
+                                     <li>Portability: You can work cross-browser.</li>
+                                     <li>Flexiblity: With WebAssembly, web browsers can run any language on the browser.</li>
+                                   </ul>
+                                 
+                                 <h4 class="modal-title w-100 text-body"><a  href="https://www.virusbulletin.com/virusbulletin/2018/10/dark-side-webassembly/">Disadvantages</a></h4>
+                                  <ul>
+                                    <li>Complexity: Unlike other high-level languages, WASM is a low-level language, which be difficult to learn. </li>
+                                    <li>Security: Despite using sandboxing for the executable code, it was found that binary codes were misused by malicious attackers</a></li><!-- Additional source: "https://www.virusbulletin.com/virusbulletin/2018/10/dark-side-webassembly/ -->
+
+                                      
+                        
+                                  </ul>
+                    
+                              </div>
+                              <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-bs-dismiss="modal">Close</button>
+                              </div>
+                            </div>
+                            </div>
+          
+                           </div>
+                          </div>
+          
+    </section>
+
+
+    <footer class="history-footer" id="contact-me">
+      <h2 class="section-head">Contact me<span style="color: #E6E67D;">.</span></h2>  
+      <div class="social">
+        <a style="text-decoration: none;" href="https://github.com/Inarat">
+      <i class="social-icon fa-brands fa-github fa-2x"></i>
+      </a>
+      <a style="text-decoration: none;" href="https://www.linkedin.com/feed/?trk=homepage-basic_signin-form_submit">
+       <i class="social-icon fab fa-linkedin-in fa-2x"></i>
+     </a>
+     <a style="text-decoration: none;" href="mail.to@toktomushova@gmail.com">
+       <i class="social-icon fas fa-envelope fa-2x"></i>
+     </a>
+       </div>
+ 
+     <hr>
+     <p class="copyright">© Designed by Inara Toktomushova. <br> 2022</p>
+       
+     </footer>
+
+ <!--JS-->
+ <script src = "app.js"></script>
+ 
+  </body>
+ 
+ </html>
