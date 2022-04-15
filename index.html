@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--Student: Inara Toktomushova   StudentID=23101896   Unit:CITS5505 Project#1-->
+    
+    <!-- Meta tags -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inara's website</title>
+
+    <!-- Font Awesome -->
+    <!--Social icons, download icon and others were taken from Font Awesome-->
+    <script src="https://kit.fontawesome.com/ce2f7ad7c1.js" crossorigin="anonymous"></script>
+    
+    <!--CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    
+    <!--JS Bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;900&family=Ubuntu&display=swap" rel="stylesheet">
+  </head>
+  <body>
+
+    <!-- Hero section -->
+    <!--source https://getbootstrap.com/docs/5.0/components/navbar/ however custom styling with CSS was applied -->
+    <section class="darkblue-section" id="hero">
+      <nav class="navbar navbar-custom navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">iT<span style="color: #E6E67D;">.</span></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarContent">
+            <ul class="navbar-nav ms-auto ">
+              <li class="nav-item">
+                <a class="nav-link" href="cod.html">CoD</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="history.html">History</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="index.html">Bio</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="hero-text">
+        <h1>Hi. I'm Inara</h1>
+        <p class="p" style="font-family:Montserrat;"> <em>a multi-lingual &#160;</em> Technology Consultant <br> <span style="color:grey;">
+          Based in <del>Bishkek,Dubai, Doha</del>, Perth</span>
+        </p>
+        <a href="#contact-me"><button class="contact-button">Contact me </button></a>
+      </div>
+    </section>
+
+    <!-- About me section -->
+    <section class="white-section" id="about">
+      <h2 class="section-heading">About Me<span style="color: #E6E67D;">.</span></h2>
+      <section class="row about-subsection">
+        <div class="col-lg-6 img-container"> 
+          <img class="headshot" src="images/Inara.png" alt="Inara Toktomushova headshot">
+        </div>
+        <div class="col-lg-6 info">
+          <p class="par">Hello. My name is Inara Toktomushova. I am a marketing professional transitioning into Tech Consulting.
+            I have lived and worked in Bishkek, Dubai, Doha and currently studying at the University of Western Australia.
+          </p>
+          <button class="btn line-btn-light btn-icon btn-radius"> <i class="fa fa-download"></i> <a href="Inara Toktomushova_CV.pdf" title="my-cv" target="_blank">CV</a></button>
+        </div>
+      </section>
+    </section>
+
+    <!-- Education section -->
+    <section class="white-section" id="edu">
+      <h2 class="section-heading">Education</h2>
+      <div class=" row edu-subsection">
+        <div class="col-lg-6 img-container">
+          <img class="uwa-logo" src="images/uwa-logo.png" alt="UWA logo"> <!--source for logo https://www.freelogovectors.net/university-of-western-australia-logo-uwa/-->
+        </div>
+        <div class="col-lg-6 edu-info">
+          <p>Master of Science in Information Technology. 2020-2022</p>
+        </div>
+      </div>
+      <div class=" row edu-subsection">
+        <div class="col-lg-6 img-container">
+          <img class="auca-logo" src="images/auca-logo.jpg" alt="AUCA logo"> <!--source for logo: https://www.auca.kg/en/branding/-->
+        </div>
+        <div class="col-lg-6 edu-info">
+          <p>Bachelor of Arts in Business Administration. 2005-2009</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects section -->
+    <!--source:  https://getbootstrap.com/docs/5.0/components/card/ , however custom styling was applied--> 
+    <section class="Projects">
+      <h2 class=" projects section-heading">Projects</h2>
+      <div class="row">
+        <div class=" part col-lg-4">
+          <div class="card project1" style="width: 18rem;">
+            <img src="images/clement-helardot-95YRwf6CNw8-unsplash.jpg" class="card-img-top" alt="Image of computer"> <!--source https://unsplash.com/photos/95YRwf6CNw8-->
+            <div class="card-body">
+              <h5 class="card-title"> Web Development </h5>
+              <p class="card-text">Personal Website</p>
+              <a href="https://github.com/Inarat/project-1" class="project-btn btn">&rarr;Learn more</a>
+            </div>
+          </div>
+        </div>
+        <div class="part col-lg-4">
+          <div class="card project2" style="width: 18rem;">
+            <img src="images/iot-project.jpeg" class=" iot-image card-img-top" alt="picture of plant waterer system"> <!--This picture was taken by me-->
+            <div class="card-body">
+              <h5 class="card-title"> IoT Project </h5>
+              <p class="card-text">Plant Waterering System</p>
+              <a href="https://github.com/Inarat/IoT-Project-/blob/main/README.md" class="project-btn btn "> &rarr;Learn more</a>
+            </div>
+          </div>
+        </div>
+        <div class=" part col-lg-4">
+          <div class="card project3" style="width: 18rem;">
+            <img src="images/luke-paris-jrxkulfAEA0-unsplash.jpg" class=" card-img-top" alt="Forest image"> <!--source: https://unsplash.com/photos/jrxkulfAEA0-->
+            <div class="card-body">
+              <h5 class="card-title"> ML Project </h5>
+              <p class="card-text">Forest Type Classification</p>
+              <a href=" https://github.com/Inarat/ML-Project" class="project-btn btn "> &rarr;Learn more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact-me">
+      <h2 class="section-head">Contact me<span style="color: #E6E67D;">.</span></h2>
+      <div class="social">
+        <a style="text-decoration: none;" href="https://github.com/Inarat" target="_blank">  
+        <i class="social-icon fa-brands fa-github fa-2x"></i>
+        </a>
+        <a style="text-decoration: none;" href="https://www.linkedin.com/in/inara-t-7a776840">
+        <i class="social-icon fab fa-linkedin-in fa-2x"></i>
+        </a>
+        <a style="text-decoration: none;" href="https://www.facebook.com/tita.toktomushova">
+        <i class=" social-icon fa-brands fa-facebook-f fa-2x"></i>
+        </a>
+      </div>
+      <hr>
+      <p class="copyright">© Designed by Inara Toktomushova. <br> 2022</p>
+    </footer>
+
+    <!--JS-->
+    <script src = "app.js"></script>
+  </body>
+</html>
