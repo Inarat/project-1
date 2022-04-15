@@ -12,3 +12,4 @@ This project was created using the following for Agile Web Development Project#1
 Images: images either have direct links to the original sources or commented next to the code. Most of the images were taken from unsplush reportt. 
 Information: Not to clatter the pages sourcess of information were commented in the code, while main sources linked with href. 
 
+The page can be viewed on https://inarat.github.io/project-1/
